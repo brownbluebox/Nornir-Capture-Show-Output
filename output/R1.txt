@@ -1,0 +1,12 @@
+R1#show ip interface brief
+Interface                  IP-Address      OK? Method Status                Protocol
+FastEthernet0/0            192.168.11.61   YES NVRAM  up                    up
+FastEthernet0/1            unassigned      YES NVRAM  administratively down down
+Serial1/0                  unassigned      YES NVRAM  administratively down down
+Serial1/1                  unassigned      YES NVRAM  administratively down down
+Serial1/2                  unassigned      YES NVRAM  administratively down down
+Serial1/3                  unassigned      YES NVRAM  administratively down down
+
+R1#show clock
+*02:34:41.079 UTC Fri Mar 1 2002
+
