@@ -1,0 +1,24 @@
+---
+
+R1:
+    hostname: "192.168.11.61"
+    groups:
+        - ios_group
+    data:
+        config_file: R1.txt
+
+R2:
+    hostname: "192.168.11.62"
+    groups:
+        - ios_group
+    data:
+        loopback: 2.2.2.2
+        config_file: R2.txt
+
+R3:
+    hostname: "192.168.11.63"
+    groups:
+        - ios_group
+    data:
+        loopback: 3.3.3.3
+        config_file: R3.txt
